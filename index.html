@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khánh Linh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <h1>Chào mừng đến với trang web của tôi!</h1>
+    <center>
+        <img class="avatar" src="avatar.jpg" width="150">
+        <h3>Dương Thị Khánh Linh</h3>
+        <p style="width: 400px;">"Chào bạn! Mình là Khánh Linh.<br>
+            Khám phá thêm về mình qua các liên kết sau nhé!"</p>
+        <button class="button facebook-btn" onclick="location.href = 'https://www.facebook.com/id.55343156895429?mibextid=ZbWKwL'">
+            <i class="fab fa-facebook"></i> Facebook
+        </button><br>
+        <button class="button instagram-btn" onclick="location.href = 'https://www.instagram.com/khanh_linh_2904/profilecard/?igsh=N2hqenlyOXJkd2Fp'">
+            <i class="fab fa-instagram"></i> Instagram
+        </button><br>
+        <button class="button threads-btn" onclick="location.href = 'https://www.threads.net/@khanh_linh_2904'">
+            <i class="fab fa-threads"></i> Threads
+        </button><br>
+        <div class="phone-button">
+            <button id="phone-btn" class="button phone-btn" onclick="copyPhoneNumber()">
+                <i class="fas fa-phone"></i> Điện thoại
+            </button>
+            <div class="phone-tooltip">
+                <span id="phone-number">0869667435</span>
+            </div>
+        </div>
+    </center>
+    <button class="toggle-theme" id="toggleTheme">Chế độ tối</button>
+    <button class="toggle-background" id="toggleBackground">Đổi hình nền</button>
+    <div id="copy-tooltip" class="copy-tooltip">Đã sao chép!</div>
+    <script src="script.js"></script>
+</body>
+</html>
